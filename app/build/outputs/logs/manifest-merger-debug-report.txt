@@ -1,0 +1,195 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:1-65:12
+	package
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:8:22-71
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:12:22-78
+uses-sdk
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:5-47
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:5-47
+INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:5-47
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:15-44
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:14:5-47
+		INJECTED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:16:5-18:35
+	android:required
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:17:9-53
+application
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:20:5-62:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:22:9-39
+	android:allowBackup
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:21:9-36
+	android:theme
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:24:9-56
+service#com.example.ti.ble.common.BluetoothLeService
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:25:9-27:38
+	android:enabled
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:27:13-35
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:26:13-72
+activity#com.example.ti.ble.sensortag.MainActivity
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:29:9-39:20
+	android:screenOrientation
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:30:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:33:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:36:27-73
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.example.ti.ble.sensortag.DeviceActivity
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:40:9-43:52
+	android:screenOrientation
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:43:13-49
+	android:parentActivityName
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:42:13-54
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:41:13-71
+activity#com.example.ti.ble.sensortag.ServiceActivity
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:44:9-47:52
+	android:screenOrientation
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:47:13-49
+	android:parentActivityName
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:45:13-72
+activity#com.example.ti.ble.sensortag.FwUpdateActivity
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:48:9-51:52
+	android:screenOrientation
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:51:13-49
+	android:parentActivityName
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:49:13-73
+activity#com.example.ti.ble.sensortag.FileActivity
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:52:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:55:13-49
+	android:parentActivityName
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:54:13-58
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:53:13-69
+activity#com.example.ti.ble.sensortag.PreferencesActivity
+ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:56:9-60:42
+	android:screenOrientation
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:59:13-49
+	android:parentActivityName
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:58:13-56
+	android:label
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:60:13-40
+	android:name
+		ADDED from C:\Users\zpqls\Desktop\pana\sensortag-android-master\app\src\main\AndroidManifest.xml:57:13-76
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\d76af7148dade3da0527564b3b4d73e5\support-fragment-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\87828d1a3a86734544e849ebbefb6b98\support-media-compat-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\74c594f3d8d5fa348dd962df39ffbebb\support-core-utils-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\eebbed7df000bd12b6d5a3bcc133ffa4\support-core-ui-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\89de53a1090cc7e5b0b72c803eb2b164\support-compat-25.4.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:25.4.0] C:\Users\zpqls\.gradle\caches\transforms-2\files-2.1\4c7c62861459595b0df37a44231bdbed\support-v4-25.4.0\AndroidManifest.xml:27:13-51
