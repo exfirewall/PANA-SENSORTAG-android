@@ -44,10 +44,14 @@ id btn_start
 id buttonOK
 id buttons
 id company_name
+id connection_state
+id data_value
 id descr
 id devImage
+id device_address
 id device_list
 id footer
+id gatt_services_list
 id gyrPanel
 id gyroscopeTxt
 id header
@@ -100,6 +104,7 @@ layout fragment_help
 layout fragment_pager
 layout fragment_scan
 layout frame_progress
+layout gatt_services_characteristics
 layout services_browser
 layout services_browser2
 menu device_activity_actions
@@ -137,6 +142,9 @@ string hum
 string idle
 string image
 string keys
+string label_data
+string label_device_address
+string label_state
 string license
 string load_image_a
 string load_image_b
@@ -144,6 +152,7 @@ string load_image_c
 string lux
 string mag
 string new_image
+string no_data
 string no_image
 string no_image_sel
 string nodevice
@@ -165,6 +174,9 @@ string unitLux
 string unitPA_Meter
 string unitRH
 string unitT3
+string unknown_characteristic
+string unknown_device
+string unknown_service
 string xyz3
 style AppBaseTheme
 style AppTheme

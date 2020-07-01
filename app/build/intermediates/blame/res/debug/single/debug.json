@@ -8,12 +8,12 @@
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\xml\\gatt_uuid.xml"
     },
     {
-        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_settings.png.flat",
-        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_settings.png"
-    },
-    {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sensortag_simplekeys.png.flat",
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-xhdpi\\sensortag_simplekeys.png"
+    },
+    {
+        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_settings.png"
     },
     {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_buttonsonoff.png.flat",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_action_bluetooth.png"
     },
     {
-        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_settings.png.flat",
-        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_action_settings.png"
-    },
-    {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_settings.png.flat",
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-hdpi\\ic_action_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_settings.png.flat",
+        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-mdpi\\ic_action_settings.png"
     },
     {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sensortag.png.flat",
@@ -104,12 +104,12 @@
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-hdpi\\tible.png"
     },
     {
-        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_refresh.png.flat",
-        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_refresh.png"
-    },
-    {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_unknown.png.flat",
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-xhdpi\\unknown.png"
+    },
+    {
+        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_refresh.png.flat",
+        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_refresh.png"
     },
     {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_about.png.flat",
@@ -194,6 +194,10 @@
     {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_list_item_normal.xml.flat",
         "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\drawable-hdpi\\list_item_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_gatt_services_characteristics.xml.flat",
+        "source": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
     },
     {
         "merged": "C:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_humidity.png.flat",

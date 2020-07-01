@@ -50,6 +50,10 @@
             android:parentActivityName="DeviceActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.example.ti.ble.sensortag.DeviceControlActivity"
+            android:parentActivityName="DeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.example.ti.ble.sensortag.FileActivity"
             android:parentActivityName="FwUpdateActivity"
             android:screenOrientation="portrait" />

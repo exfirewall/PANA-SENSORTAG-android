@@ -187,7 +187,7 @@ public class DeviceActivity extends ViewPagerActivity {
 			startOadActivity();
 			break;
 		case R.id.opt_about:
-			openAboutDialog();
+			startDeviceControlActivity();
 			break;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -304,6 +304,10 @@ public class DeviceActivity extends ViewPagerActivity {
 			Toast.makeText(this, "OAD not available on this BLE device",
 			    Toast.LENGTH_LONG).show();
 		}
+	}
+	private void startDeviceControlActivity(){
+		Intent intent = new Intent(getApplicationContext(), DeviceControlActivity.class);
+		startActivity(intent);
 	}
 
 	private void startPreferenceActivity() {

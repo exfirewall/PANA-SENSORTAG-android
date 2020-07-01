@@ -34,6 +34,9 @@
     <string name="idle">idle</string>
     <string name="image">Image</string>
     <string name="keys">Keys</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
     <string name="license">License</string>
     <string name="load_image_a">Image A</string>
     <string name="load_image_b">Image B</string>
@@ -41,6 +44,7 @@
     <string name="lux">Luxometer</string>
     <string name="mag">Magnetometer</string>
     <string name="new_image">New image:</string>
+    <string name="no_data">No data</string>
     <string name="no_image">Not an OAD image</string>
     <string name="no_image_sel">No image selected</string>
     <string name="nodevice">There are no SensorTags advertising within range. Please push the side button on the SensorTag to start advertising.</string>
@@ -62,16 +66,15 @@
     <string name="unitPA_Meter">nPA\nmeter</string>
     <string name="unitRH">%rH\n</string>
     <string name="unitT3">uT\nuT\nuT\n</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
     <string name="xyz3">x:\ny:\nz:\n</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+        
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
     </style>
     <style name="ServiceHeaderItem">
         <item name="android:layout_span">4</item>

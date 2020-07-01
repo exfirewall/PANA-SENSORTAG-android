@@ -21,6 +21,10 @@
     <string name="scan_advice">The Android device is not scanning. Please tap \'Scan\' to scan for SensorTags.</string>
     <string name="bt_adapter_disable">Disable Bluetooth adapter</string>
     <string name="bt_adapter_reset">Reset Bluetooth adapter</string>
+
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
     <string name="no_data">No data</string>
     <string name="unknown_device">Unknown device</string>
     <string name="unknown_characteristic">Unknown characteristic</string>
