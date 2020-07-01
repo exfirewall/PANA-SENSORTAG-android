@@ -43,6 +43,7 @@ id btn_scan
 id btn_start
 id buttonOK
 id buttons
+id company_name
 id descr
 id devImage
 id device_list
@@ -119,6 +120,7 @@ string bt_on
 string btn_txt_confirm
 string button_scan
 string cancel
+string company_name
 string connect
 string control
 string cur_image

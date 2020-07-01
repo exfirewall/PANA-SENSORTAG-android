@@ -30,17 +30,17 @@
         android:text="@string/nodevice"
         android:textSize="14sp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="@string/image"
-        android:gravity="center"
-        android:src="@drawable/ti_stk_2c_pos_rgb_png" />
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:contentDescription="@string/image"-->
+<!--        android:gravity="center"-->
+<!--        android:src="@drawable/ti_stk_2c_pos_rgb_png" />-->
 
     <TextView
         android:id="@+id/status"
@@ -60,5 +60,16 @@
         android:onClick="onBtnScan"
         android:padding="10dp"
         android:text="@string/button_scan" />
+
+    <TextView
+        android:id="@+id/company_name"
+        android:paddingRight="8dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center|right"
+        android:textSize="12sp"
+        android:text="@string/company_name" />
 
 </LinearLayout>

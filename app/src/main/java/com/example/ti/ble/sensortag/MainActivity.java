@@ -183,9 +183,9 @@ public class MainActivity extends ViewPagerActivity {
 		mScanView = new ScanView();
 		mSectionsPagerAdapter.addSection(mScanView, "BLE Device List");
 		
-		HelpView hw = new HelpView();
-		hw.setParameters("help_scan.html", R.layout.fragment_help, R.id.webpage);
-		mSectionsPagerAdapter.addSection(hw, "Help");
+//		HelpView hw = new HelpView();
+//		hw.setParameters("help_scan.html", R.layout.fragment_help, R.id.webpage);
+//		mSectionsPagerAdapter.addSection(hw, "Help");
 
 		// Register the BroadcastReceiver
 		mFilter = new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED);
@@ -446,7 +446,7 @@ public class MainActivity extends ViewPagerActivity {
 
 	void setError(String txt) {
 		mScanView.setError(txt);
-		CustomToast.middleBottom(this, "Turning BT adapter off and on again may fix Android BLE stack problems");
+		CustomToast.middleBottom(this, "Turning BT adapter off and on again may fix Android BLE tack problems");
 	}
 
 	private BleDeviceInfo createDeviceInfo(BluetoothDevice device, int rssi) {

@@ -14,7 +14,7 @@
   this software subject to the terms herein.  With respect to the foregoing patent
   license, such license is granted  solely to the extent that any such patent is necessary
   to Utilize the software alone.  The patent license shall not apply to any combinations which
-  include this software, other than combinations with devices manufactured by or for TI (ÒTI DevicesÓ). 
+  include this software, other than combinations with devices manufactured by or for TI (ï¿½TI Devicesï¿½). 
   No hardware patent is licensed hereunder.
 
   Redistributions must preserve existing copyright notices and reproduce this license (including the
@@ -42,9 +42,9 @@
 
   DISCLAIMER.
 
-  THIS SOFTWARE IS PROVIDED BY TI AND TIÕS LICENSORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+  THIS SOFTWARE IS PROVIDED BY TI AND TIï¿½S LICENSORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
   BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-  IN NO EVENT SHALL TI AND TIÕS LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  IN NO EVENT SHALL TI AND TIï¿½S LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
   OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
@@ -74,6 +74,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 // import android.util.Log;
+import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -97,7 +98,7 @@ public class DeviceActivity extends ViewPagerActivity {
 	private static final int FWUPDATE_ACT_REQ = 1;
 
 	private DeviceView mDeviceView = null;
-
+	private DeviceControlActivity mDeviceControlActivity = null;
 	// BLE
 	private BluetoothLeService mBtLeService = null;
 	private BluetoothDevice mBluetoothDevice = null;
@@ -149,9 +150,6 @@ public class DeviceActivity extends ViewPagerActivity {
 		// GUI
 		mDeviceView = new DeviceView();
 		mSectionsPagerAdapter.addSection(mDeviceView, "Sensors");
-		HelpView hw = new HelpView();
-		hw.setParameters("help_device.html", R.layout.fragment_help, R.id.webpage);
-		mSectionsPagerAdapter.addSection(hw, "Help");
 
 		// GATT database
 		Resources res = getResources();

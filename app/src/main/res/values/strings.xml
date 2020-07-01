@@ -2,7 +2,8 @@
 <resources>
 
     <!-- Main activity -->
-    <string name="app_name">BLE SensorTag</string>
+    <string name="app_name">marBLE studio</string>
+    <string name="company_name">Panaxtos, inc.</string>
     <string name="button_scan">Scan</string>
     <string name="connect">Connect</string>
     <string name="title_device_list">Device List</string>
@@ -20,7 +21,10 @@
     <string name="scan_advice">The Android device is not scanning. Please tap \'Scan\' to scan for SensorTags.</string>
     <string name="bt_adapter_disable">Disable Bluetooth adapter</string>
     <string name="bt_adapter_reset">Reset Bluetooth adapter</string>
-    
+    <string name="no_data">No data</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
     <!-- Options menu -->
     <string name="prefs">Preferences</string>
     <string name="progress"></string>

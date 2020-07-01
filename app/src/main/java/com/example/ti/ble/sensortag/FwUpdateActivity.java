@@ -14,7 +14,7 @@
   this software subject to the terms herein.  With respect to the foregoing patent
   license, such license is granted  solely to the extent that any such patent is necessary
   to Utilize the software alone.  The patent license shall not apply to any combinations which
-  include this software, other than combinations with devices manufactured by or for TI (ÒTI DevicesÓ). 
+  include this software, other than combinations with devices manufactured by or for TI (ï¿½TI Devicesï¿½). 
   No hardware patent is licensed hereunder.
 
   Redistributions must preserve existing copyright notices and reproduce this license (including the
@@ -42,9 +42,9 @@
 
   DISCLAIMER.
 
-  THIS SOFTWARE IS PROVIDED BY TI AND TIÕS LICENSORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
+  THIS SOFTWARE IS PROVIDED BY TI AND TIï¿½S LICENSORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
   BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-  IN NO EVENT SHALL TI AND TIÕS LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  IN NO EVENT SHALL TI AND TIï¿½S LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
   CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA,
   OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
@@ -108,10 +108,10 @@ public class FwUpdateActivity extends Activity {
   private static final int HAL_FLASH_WORD_SIZE = 4;
   private static final int OAD_BUFFER_SIZE = 2 + OAD_BLOCK_SIZE;
   private static final int OAD_IMG_HDR_SIZE = 8;
-	private static final long TIMER_INTERVAL = 1000;
+  private static final long TIMER_INTERVAL = 1000;
 	
-	private static final int SEND_INTERVAL = 20; // Milliseconds (make sure this is longer than the connection interval)
-	private static final int BLOCKS_PER_CONNECTION = 4; // May sent up to four blocks per connection
+  private static final int SEND_INTERVAL = 20; // Milliseconds (make sure this is longer than the connection interval)
+  private static final int BLOCKS_PER_CONNECTION = 4; // May sent up to four blocks per connection
 
   // GUI
   private TextView mTargImage;

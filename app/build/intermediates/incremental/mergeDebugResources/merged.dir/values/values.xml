@@ -5,7 +5,7 @@
     <string name="acc">Accelerometer</string>
     <string name="agree">I agree</string>
     <string name="app_closing">Exiting BLE SensorTag app</string>
-    <string name="app_name">BLE SensorTag</string>
+    <string name="app_name">marBLE studio</string>
     <string name="bar">Barometer</string>
     <string name="ble_not_supported">BLE is not supported</string>
     <string name="bt">Bluetooth Adapter</string>
@@ -17,6 +17,7 @@
     <string name="btn_txt_confirm">Confirm</string>
     <string name="button_scan">Scan</string>
     <string name="cancel">Cancel</string>
+    <string name="company_name">Panaxtos, inc.</string>
     <string name="connect">Connect</string>
     <string name="control">Done</string>
     <string name="cur_image">Current image:</string>
