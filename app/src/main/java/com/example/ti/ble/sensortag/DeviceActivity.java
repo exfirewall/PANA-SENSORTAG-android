@@ -74,7 +74,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 // import android.util.Log;
-import android.support.v4.app.Fragment;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -84,8 +83,6 @@ import android.widget.Toast;
 
 import com.example.ti.ble.common.BluetoothLeService;
 import com.example.ti.ble.common.GattInfo;
-import com.example.ti.ble.common.HelpView;
-import com.example.ti.ble.sensortag.R;
 import com.example.ti.util.Point3D;
 
 public class DeviceActivity extends ViewPagerActivity {
@@ -98,7 +95,7 @@ public class DeviceActivity extends ViewPagerActivity {
 	private static final int FWUPDATE_ACT_REQ = 1;
 
 	private DeviceView mDeviceView = null;
-	private DeviceControlActivity mDeviceControlActivity = null;
+	private DeviceControlView mDeviceControlView = null;
 	// BLE
 	private BluetoothLeService mBtLeService = null;
 	private BluetoothDevice mBluetoothDevice = null;
@@ -150,6 +147,8 @@ public class DeviceActivity extends ViewPagerActivity {
 		// GUI
 		mDeviceView = new DeviceView();
 		mSectionsPagerAdapter.addSection(mDeviceView, "Sensors");
+		mDeviceControlView = new DeviceControlView();
+		mSectionsPagerAdapter.addSection(mDeviceControlView, "characteristic");
 
 		// GATT database
 		Resources res = getResources();
@@ -158,6 +157,10 @@ public class DeviceActivity extends ViewPagerActivity {
 
 		// Initialize sensor list
 		updateSensorList();
+
+		// throw name, address to characteristicView
+		intent.putExtra(DeviceControlView.EXTRAS_DEVICE_NAME, mBluetoothDevice.getName());
+		intent.putExtra(DeviceControlView.EXTRAS_DEVICE_ADDRESS, mBluetoothDevice.getAddress());
 	}
 
 	@Override
@@ -306,7 +309,10 @@ public class DeviceActivity extends ViewPagerActivity {
 		}
 	}
 	private void startDeviceControlActivity(){
-		Intent intent = new Intent(getApplicationContext(), DeviceControlActivity.class);
+		Intent intent = new Intent(getApplicationContext(), DeviceControlView.class);
+		intent.putExtra(DeviceControlView.EXTRAS_DEVICE_NAME, mBluetoothDevice.getName());
+		intent.putExtra(DeviceControlView.EXTRAS_DEVICE_ADDRESS, mBluetoothDevice.getAddress());
+
 		startActivity(intent);
 	}
 

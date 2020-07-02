@@ -50,7 +50,7 @@
             android:parentActivityName="DeviceActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.ti.ble.sensortag.DeviceControlActivity"
+            android:name="com.example.ti.ble.sensortag.DeviceControlView"
             android:parentActivityName="DeviceActivity"
             android:screenOrientation="portrait" />
         <activity

@@ -69,6 +69,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
+import android.util.Log;
 
 // import android.util.Log;
 
@@ -113,8 +114,8 @@ public class BluetoothLeService extends Service {
 
 			BluetoothDevice device = gatt.getDevice();
 			String address = device.getAddress();
-			// Log.d(TAG, "onConnectionStateChange (" + address + ") " + newState +
-			// " status: " + status);
+			Log.d(TAG, "onConnectionStateChange (" + address + ") " + newState +
+			" status: " + status);
 
 			try {
 				switch (newState) {
