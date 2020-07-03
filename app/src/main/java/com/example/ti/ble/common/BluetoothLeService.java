@@ -55,6 +55,8 @@
 package com.example.ti.ble.common;
 
 import java.util.List;
+import java.util.UUID;
+
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -70,6 +72,8 @@ import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
+
+import com.example.ti.ble.sensortag.SampleGattAttributes;
 
 // import android.util.Log;
 
@@ -91,6 +95,9 @@ public class BluetoothLeService extends Service {
 	public final static String EXTRA_STATUS = "com.example.ti.ble.common.EXTRA_STATUS";
 	public final static String EXTRA_ADDRESS = "com.example.ti.ble.common.EXTRA_ADDRESS";
 
+
+	public final static UUID UUID_PANAXTOS_EEG =
+			UUID.fromString(SampleGattAttributes.PANAXTOX_EEG);
 	// BLE
 	private BluetoothManager mBluetoothManager = null;
 	private BluetoothAdapter mBtAdapter = null;
@@ -144,7 +151,7 @@ public class BluetoothLeService extends Service {
 		@Override
 		public void onCharacteristicChanged(BluetoothGatt gatt,
 		    BluetoothGattCharacteristic characteristic) {
-			broadcastUpdate(ACTION_DATA_NOTIFY, characteristic,
+			broadcastUpdate(ACTION_DATA_READ, characteristic,
 			    BluetoothGatt.GATT_SUCCESS);
 		}
 
@@ -184,13 +191,36 @@ public class BluetoothLeService extends Service {
 	}
 
 	private void broadcastUpdate(final String action,
-	    final BluetoothGattCharacteristic characteristic, final int status) {
+								 final BluetoothGattCharacteristic characteristic, final int status) {
 		final Intent intent = new Intent(action);
-		intent.putExtra(EXTRA_UUID, characteristic.getUuid().toString());
-		intent.putExtra(EXTRA_DATA, characteristic.getValue());
-		intent.putExtra(EXTRA_STATUS, status);
+
+		// This is special handling for the Heart Rate Measurement profile.  Data parsing is
+		// carried out as per profile specifications:
+		// http://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.heart_rate_measurement.xml
+		if (UUID_PANAXTOS_EEG.equals(characteristic.getUuid())) {
+			int flag = characteristic.getProperties();
+			int format = -1;
+			if ((flag & 0x01) != 0) {
+				format = BluetoothGattCharacteristic.FORMAT_UINT16;
+				Log.d(TAG, "Heart rate format UINT16.");
+			} else {
+				format = BluetoothGattCharacteristic.FORMAT_UINT8;
+				Log.d(TAG, "Heart rate format UINT8.");
+			}
+			final byte[] data = characteristic.getValue();
+			intent.putExtra(EXTRA_DATA, String.valueOf(data));
+			intent.putExtra(EXTRA_STATUS, status);
+		} else {
+			// For all other profiles, writes the data formatted in HEX.
+			final byte[] data = characteristic.getValue();
+			if (data != null && data.length > 0) {
+				final StringBuilder stringBuilder = new StringBuilder(data.length);
+				for(byte byteChar : data)
+					stringBuilder.append(String.format("%02X ", byteChar));
+				intent.putExtra(EXTRA_DATA, new String(data) + "\n" + stringBuilder.toString());
+			}
+		}
 		sendBroadcast(intent);
-		mBusy = false;
 	}
 
 	private boolean checkGatt() {
@@ -366,7 +396,7 @@ public class BluetoothLeService extends Service {
 	 * 
 	 * @param characteristic
 	 *          Characteristic to act on.
-	 * @param enabled
+	 * @param enable
 	 *          If true, enable notification. False otherwise.
 	 */
 	public boolean setCharacteristicNotification(

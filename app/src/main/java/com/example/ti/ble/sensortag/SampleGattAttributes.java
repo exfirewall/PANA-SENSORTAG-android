@@ -27,6 +27,7 @@ public class SampleGattAttributes {
     public static String GENERIC_ACCESS_SERVICE = "00001800-0000-1000-8000-00805f9b34fb";
     public static String GENERIC_ATTRIBUTE_SERVICE = "00001801-0000-1000-8000-00805f9b34fb";
     public static String BATTERY_SERVICE = "0000180f-0000-1000-8000-00805f9b34fb";
+    public static String PANAXTOX_EEG = "0000ffa0-0000-1000-8000-00805f9b34fb";
     public static String OAD_SERVICE = "f000ffc0-0451-4000-b000-000000000000";
     public static String CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
 
@@ -39,6 +40,7 @@ public class SampleGattAttributes {
         attributes.put(GENERIC_ACCESS_SERVICE, "Generic Access Service");
         attributes.put(GENERIC_ATTRIBUTE_SERVICE, "Generic Attribute Service");
         attributes.put(BATTERY_SERVICE, "Battery service");
+        attributes.put(PANAXTOX_EEG,"EEG Measurement");
         attributes.put(OAD_SERVICE, "OAD service");
         attributes.put("00002a29-0000-1000-8000-00805f9b34fb", "Manufacturer Name String");
     }
