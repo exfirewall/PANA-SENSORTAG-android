@@ -190,7 +190,7 @@ public class DeviceActivity extends ViewPagerActivity {
 			startOadActivity();
 			break;
 		case R.id.opt_about:
-			startDeviceControlActivity();
+			//startDeviceControlActivity();
 			break;
 		default:
 			return super.onOptionsItemSelected(item);
@@ -290,13 +290,13 @@ public class DeviceActivity extends ViewPagerActivity {
 	}
 
 	private void startOadActivity() {
-    // For the moment OAD does not work on Galaxy S3 (disconnects on parameter update)
-    if (Build.MODEL.contains("I9300")) {
+		// For the moment OAD does not work on Galaxy S3 (disconnects on parameter update)
+		if (Build.MODEL.contains("I9300")) {
 			Toast.makeText(this, "OAD not available on this Android device",
-			    Toast.LENGTH_LONG).show();
+					Toast.LENGTH_LONG).show();
 			return;
-    }
-    	
+		}
+
 		if (mOadService != null && mConnControlService != null) {
 			// Disable sensors and notifications when the OAD dialog is open
 			enableDataCollection(false);
@@ -305,15 +305,8 @@ public class DeviceActivity extends ViewPagerActivity {
 			startActivityForResult(i, FWUPDATE_ACT_REQ);
 		} else {
 			Toast.makeText(this, "OAD not available on this BLE device",
-			    Toast.LENGTH_LONG).show();
+					Toast.LENGTH_LONG).show();
 		}
-	}
-	private void startDeviceControlActivity(){
-		Intent intent = new Intent(getApplicationContext(), DeviceControlView.class);
-		intent.putExtra(DeviceControlView.EXTRAS_DEVICE_NAME, mBluetoothDevice.getName());
-		intent.putExtra(DeviceControlView.EXTRAS_DEVICE_ADDRESS, mBluetoothDevice.getAddress());
-
-		startActivity(intent);
 	}
 
 	private void startPreferenceActivity() {
@@ -552,12 +545,14 @@ public class DeviceActivity extends ViewPagerActivity {
 				// Data written
 				String uuidStr = intent.getStringExtra(BluetoothLeService.EXTRA_UUID);
 				onCharacteristicWrite(uuidStr, status);
-			} else if (BluetoothLeService.ACTION_DATA_READ.equals(action)) {
+			}
+			// overlaping Receiver on DeviceControlView
+			/*else if (BluetoothLeService.ACTION_DATA_READ.equals(action)) {
 				// Data read
 				String uuidStr = intent.getStringExtra(BluetoothLeService.EXTRA_UUID);
 				byte[] value = intent.getByteArrayExtra(BluetoothLeService.EXTRA_DATA);
 				onCharacteristicsRead(uuidStr, value, status);
-			}
+			}*/
 
 			if (status != BluetoothGatt.GATT_SUCCESS) {
 				setError("GATT error code: " + status);

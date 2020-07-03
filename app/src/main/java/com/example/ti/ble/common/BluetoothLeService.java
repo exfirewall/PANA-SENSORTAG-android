@@ -151,7 +151,7 @@ public class BluetoothLeService extends Service {
 		@Override
 		public void onCharacteristicChanged(BluetoothGatt gatt,
 		    BluetoothGattCharacteristic characteristic) {
-			broadcastUpdate(ACTION_DATA_READ, characteristic,
+			broadcastUpdate(ACTION_DATA_NOTIFY, characteristic,
 			    BluetoothGatt.GATT_SUCCESS);
 		}
 
@@ -208,8 +208,9 @@ public class BluetoothLeService extends Service {
 				Log.d(TAG, "Heart rate format UINT8.");
 			}
 			final byte[] data = characteristic.getValue();
-			intent.putExtra(EXTRA_DATA, String.valueOf(data));
-			intent.putExtra(EXTRA_STATUS, status);
+			//intent.putExtra(EXTRA_DATA, String.valueOf(data));
+			Log.d(TAG, new String(data));
+            intent.putExtra(EXTRA_STATUS, status);
 		} else {
 			// For all other profiles, writes the data formatted in HEX.
 			final byte[] data = characteristic.getValue();

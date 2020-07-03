@@ -1,4 +1,4 @@
-#Thu Jul 02 18:06:44 KST 2020
+#Fri Jul 03 18:10:11 KST 2020
 base.0=C\:\\Users\\zpqls\\Desktop\\pana\\sensortag-android-master\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
